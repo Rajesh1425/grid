@@ -1,0 +1,48 @@
+.con{
+   
+        background-color:whitesmoke ;
+        display: grid;
+        grid-template-columns: 150px 850px;
+        grid-template-rows:150px 320px 150px;
+        row-gap:10px;
+        column-gap: 10px;
+    }
+
+.du1{
+    height: 125px;
+    width: 125px;
+    background-color: rgb(240, 128, 0);
+
+}
+.duu1{
+    grid-column-start:1;
+    grid-column-end:4;
+    background-color: rgb(240, 128, 0);
+ 
+  
+}
+.du1l{
+    grid-column-start:1;
+    grid-column-end:4;
+    background-color: rgb(240, 128, 0);
+    width: 1111;
+  
+}
+.du{
+
+    background-color: rgb(240, 128, 0);
+}
+.d{
+    background-color: rgb(240, 128, 0);
+}
+.duu{
+    background-color: rgb(240, 128, 0);
+}
+span{
+    text-align: center;
+    position: relative;
+    left:44%;
+  top:48%;
+  font-weight: 500px;
+  font-size:1.5rem;
+}
